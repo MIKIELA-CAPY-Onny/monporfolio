@@ -1,0 +1,245 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Portfolio de MIKIELA CAPY Onny Tyburs, développeur web spécialisé en front-end et back-end.">
+    <title>Portfolio de MIKIELA CAPY Onny T.</title>
+    <!-- Liens externes pour les polices et icônes -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <!-- Fichier CSS externe pour le style -->
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- Section d'accueil -->
+    <header id="home">
+        <nav>
+            <ul class="nav-links">
+                <li><a href="#home" data-section="home">Accueil</a></li>
+                <li><a href="#about" data-section="about">À propos</a></li>
+                <li><a href="#projects" data-section="projects">Projets</a></li>
+                <li><a href="#skills" data-section="skills">Technologies</a></li>
+                <li><a href="#testimonials" data-section="testimonials">Témoignages</a></li>
+                <li><a href="#blog" data-section="blog">Blog</a></li>
+                <li><a href="#contact" data-section="contact">Contact</a></li>
+                <li><a href="CV.pdf" target="_blank" rel="noopener noreferrer">CV</a></li> <!-- Lien vers le CV -->
+            </ul>
+        </nav>
+        <div class="hero">
+            <h1>Bonjour, je suis MIKIELA CAPY Onny Tyburs</h1>
+            <p>Développeur web polyvalent, spécialisé en front-end et back-end.</p>
+            <a href="#projects" class="btn">Voir mon Portfolio</a>
+        </div>
+    </header>
+
+    <!-- Section À propos avec photo -->
+    <section id="about" class="section">
+        <h2>À propos de moi</h2>
+        <div class="about-container">
+            <!-- Photo de profil -->
+            <div class="profile-photo-container">
+                <img src="images.jpg" alt="Photo de MIKIELA CAPY Onny Tyburs" class="profile-photo">
+                <div class="photo-overlay">
+                    <p>Développeur Full-Stack</p>
+                </div>
+            </div>
+
+            <!-- Texte à propos -->
+            <div class="about-text">
+                <p>Je suis un développeur web passionné avec plus de 3 années d’expérience dans la création de sites dynamiques et d’applications web interactives. Je maîtrise des technologies comme JavaScript, React, Node.js, Python, PHP, et bien plus encore. Mon objectif est de concevoir des solutions performantes et esthétiques pour offrir une expérience utilisateur optimale.</p>
+                <div class="about-details">
+                    <div class="detail-item">
+                        <i class="fas fa-user-tie"></i>
+                        <span>Nom : MIKIELA CAPY Onny Tyburs</span>
+                    </div>
+                    <div class="detail-item">
+                        <i class="fas fa-map-marker-alt"></i>
+                        <span>Localisation : Libreville, Gabon</span>
+                    </div>
+                    <div class="detail-item">
+                        <i class="fas fa-envelope"></i>
+                        <span>Email : <a href="mailto:mikielaonny9@gmail.com">mikielaonny9@gmail.com</a></span>
+                    </div>
+                    <div class="detail-item">
+                        <i class="fas fa-phone"></i>
+                        <span>Téléphone : <a href="tel:+24177759938">+241 77 75 99 38</a></span>
+                    </div>
+                </div>
+                <a href="CV.pdf" target="_blank" class="btn-download-cv">
+                    <i class="fas fa-download"></i> Télécharger mon CV
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Section Projets -->
+    <section id="projects" class="section">
+        <h2>Projets récents</h2>
+        <div class="project-list">
+            <!-- Exemple de projet -->
+            <div class="project">
+                <img src="project1.jpg" alt="Gestionnaire de Tâches" class="project-image">
+                <h3>Gestionnaire de Tâches</h3>
+                <p>Une application de gestion des tâches basée sur React et Node.js. Permet la création, modification et suivi des tâches en temps réel.</p>
+                <div class="project-links">
+                    <a href="https://mon-projet.com" target="_blank" rel="noopener noreferrer" class="btn">Voir le projet</a>
+                    <a href="https://github.com/monrepo/taches" target="_blank" rel="noopener noreferrer" class="btn">Voir le code</a>
+                </div>
+            </div>
+            <!-- Ajouter d'autres projets ici -->
+        </div>
+    </section>
+
+    <!-- Section Technologies -->
+    <section id="skills" class="section">
+        <h2>Technologies maîtrisées</h2>
+        <div class="skills-list">
+            <div class="skill">
+                <i class="fab fa-html5"></i>
+                <span>HTML</span>
+            </div>
+            <div class="skill">
+                <i class="fab fa-css3-alt"></i>
+                <span>CSS</span>
+            </div>
+            <div class="skill">
+                <i class="fab fa-js"></i>
+                <span>JavaScript</span>
+            </div>
+            <div class="skill">
+                <i class="fab fa-react"></i>
+                <span>React</span>
+            </div>
+            <div class="skill">
+                <i class="fab fa-node-js"></i>
+                <span>Node.js</span>
+            </div>
+            <div class="skill">
+                <i class="fab fa-python"></i>
+                <span>Python</span>
+            </div>
+            <div class="skill">
+                <i class="fab fa-java"></i>
+                <span>Java</span>
+            </div>
+            <div class="skill">
+                <i class="fas fa-database"></i>
+                <span>MySQL</span>
+            </div>
+            <div class="skill">
+                <i class="fab fa-php"></i>
+                <span>PHP</span>
+            </div>
+        </div>
+    </section>
+
+    <!-- Section Témoignages -->
+    <section id="testimonials" class="section">
+        <h2>Témoignages</h2>
+        <div class="testimonial">
+            <blockquote>« MIKIELA a surpassé nos attentes en créant une application rapide et intuitive. » - Client 1</blockquote>
+        </div>
+        <div class="testimonial">
+            <blockquote>« Son expertise technique et sa capacité à comprendre nos besoins ont été exemplaires. » - Client 2</blockquote>
+        </div>
+    </section>
+
+    <!-- Section Blog -->
+    <section id="blog" class="section">
+        <h2>Articles récents</h2>
+        <div class="blog-post">
+            <h3>Les meilleures pratiques de développement web en 2024</h3>
+            <p>Un aperçu des stratégies et outils indispensables pour créer des sites modernes. <a href="#" class="read-more">Lire plus</a></p>
+        </div>
+        <!-- Ajouter d'autres articles ici -->
+    </section>
+
+    <!-- Section Contact -->
+    <section id="contact" class="section">
+        <h2>Contactez-moi</h2>
+        <p class="contact-subtitle">Vous avez un projet, une question ou une opportunité ? Écrivez-moi, je vous répondrai rapidement.</p>
+        <form action="https://formspree.io/f/mjvqjqjq" method="POST" class="contact-form">
+            <!-- Champ Nom -->
+            <div class="form-group">
+                <label for="name">Nom complet :</label>
+                <input type="text" id="name" name="name" placeholder="Votre nom complet" required>
+            </div>
+
+            <!-- Champ E-mail -->
+            <div class="form-group">
+                <label for="email">Adresse e-mail :</label>
+                <input type="email" id="email" name="email" placeholder="Votre adresse e-mail" required>
+            </div>
+
+            <!-- Champ Sujet -->
+            <div class="form-group">
+                <label for="subject">Sujet :</label>
+                <input type="text" id="subject" name="subject" placeholder="Objet de votre message" required>
+            </div>
+
+            <!-- Champ Message -->
+            <div class="form-group">
+                <label for="message">Message :</label>
+                <textarea id="message" name="message" rows="6" placeholder="Décrivez votre projet ou votre demande" required></textarea>
+            </div>
+
+            <!-- Bouton d'envoi -->
+            <div class="form-group">
+                <button type="submit" class="btn-submit">
+                    <span>Envoyer le message</span>
+                    <i class="fas fa-paper-plane"></i> <!-- Icône d'envoi -->
+                </button>
+            </div>
+        </form>
+    </section>
+
+    <!-- Pied de page -->
+    <footer>
+        <div class="footer-content">
+            <!-- Section des liens utiles -->
+            <div class="footer-section">
+                <h3>Liens utiles</h3>
+                <ul class="footer-links">
+                    <li><a href="#home">Accueil</a></li>
+                    <li><a href="#projects">Projets</a></li>
+                    <li><a href="#skills">Technologies</a></li>
+                    <li><a href="#about">À propos</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </div>
+
+            <!-- Section des réseaux sociaux -->
+            <div class="footer-section">
+                <h3>Réseaux sociaux</h3>
+                <ul class="social-links">
+                    <li><a href="#" target="_blank" rel="noopener noreferrer"><i class="fab fa-linkedin"></i> LinkedIn</a></li>
+                    <li><a href="#" target="_blank" rel="noopener noreferrer"><i class="fab fa-github"></i> GitHub</a></li>
+                    <li><a href="#" target="_blank" rel="noopener noreferrer"><i class="fab fa-twitter"></i> Twitter</a></li>
+                    <li><a href="#" target="_blank" rel="noopener noreferrer"><i class="fab fa-youtube"></i> youtube</a></li>
+                    <li><a href="#" target="_blank" rel="noopener noreferrer"><i class="fab fa-instagram"></i> instagram</a></li>
+                    <li><a href="#" target="_blank" rel="noopener noreferrer"><i class="fab fa-tiktok"></i> Tiktok</a></li>
+                </ul>
+            </div>
+
+            <!-- Section de contact rapide -->
+            <div class="footer-section">
+                <h3>Contact rapide</h3>
+                <p>Email: <a href="mailto:mikielaonny9@gmail.com">mikielaonny9@gmail.com</a></p>
+                <p>Téléphone: <a href="tel:+24177759938">+241 77 75 99 38</a></p>
+            </div>
+        </div>
+
+        <!-- Copyright et lien vers le haut de la page -->
+        <div class="footer-bottom">
+            <p>&copy; 2024 MIKIELA CAPY Onny T. Tous droits réservés.</p>
+            <a href="#home" class="scroll-to-top"><i class="fas fa-arrow-up"></i> Haut de page</a>
+        </div>
+    </footer>
+
+    <!-- Scripts JavaScript -->
+    <script src="script.js"></script>
+</body>
+</html>
